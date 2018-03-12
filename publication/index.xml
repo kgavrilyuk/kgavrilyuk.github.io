@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Academic</title>
+    <title>Publications on Kirill Gavrilyuk</title>
     <link>https://kgavrilyuk.github.io/publication/</link>
-    <description>Recent content in Publications on Academic</description>
+    <description>Recent content in Publications on Kirill Gavrilyuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Kirill Gavrilyuk</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kgavrilyuk.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VideoLSTM convolves, attends and flows for action recognition</title>
+      <link>https://kgavrilyuk.github.io/publication/videolstm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgavrilyuk.github.io/publication/videolstm/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
