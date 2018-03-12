@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Kirill Gavrilyuk</copyright>
-    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kgavrilyuk.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://kgavrilyuk.github.io/home/about/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/about/</guid>
       <description>Biography Kirill Gavrilyuk is a Ph.D. candidate in Machine Learning and Computer Vision supervised by Cees Snoek at the University of Amsterdam, QUVA Lab. He is mainly interested in video and action understanding.
@@ -26,7 +26,7 @@ You can find the full CV here.</description>
     <item>
       <title>Publications</title>
       <link>https://kgavrilyuk.github.io/home/publications/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/publications/</guid>
       <description></description>
@@ -46,7 +46,7 @@ You can find the full CV here.</description>
     <item>
       <title>Contact</title>
       <link>https://kgavrilyuk.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/contact/</guid>
       <description></description>
