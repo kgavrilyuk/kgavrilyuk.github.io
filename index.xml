@@ -18,9 +18,45 @@
       <guid>https://kgavrilyuk.github.io/publication/actor_action/</guid>
       <description>
 
-&lt;h2 id=&#34;code-and-datasets&#34;&gt;Code and Datasets&lt;/h2&gt;
+&lt;h2 id=&#34;datasets&#34;&gt;Datasets&lt;/h2&gt;
 
-&lt;p&gt;The code and datasets will be available after CVPR 2018 conference.&lt;/p&gt;
+&lt;h3 id=&#34;a2d-sentences&#34;&gt;A2D Sentences&lt;/h3&gt;
+
+&lt;p&gt;We have extended &lt;a href=&#34;https://web.eecs.umich.edu/~jjcorso/r/a2d/&#34; target=&#34;_blank&#34;&gt;Actor and Action (A2D) Dataset&lt;/a&gt; with additional description of every object is doing in the videos. We provide three files containing our annotation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://kgavrilyuk.github.io/actor_action/a2d_annotation.txt&#34;&gt;a2d_annotation.txt&lt;/a&gt; contains annotation in the format &amp;ldquo;video_id,instance_id,query&amp;rdquo; where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;video_id&amp;rdquo; - the original id of the video from the A2D dataset&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;instance_id&amp;rdquo; - the id of the object in the video that we have added to the original annotation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;query&amp;rdquo; - the description of what object is doing throughout the whole video (see the paper for more details)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/14DNamenZsvZnb32NFBNkZCGene5D2oaE/view&#34; target=&#34;_blank&#34;&gt;a2d_annotation_with_instances.zip&lt;/a&gt; - the original annotation from the A2D dataset in HDF5 with the field &amp;ldquo;instance&amp;rdquo; added. This field corresponds to &amp;ldquo;instance_id&amp;rdquo; field in the &lt;em&gt;a2d_annotation.txt&lt;/em&gt; file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://kgavrilyuk.github.io/actor_action/a2d_missed_videos.txt&#34;&gt;a2d_missed_videos.txt&lt;/a&gt; contains all the videos that were not annotated with descriptions and therefore were excluded from experiments in the paper.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;j-hmdb-sentences&#34;&gt;J-HMDB Sentences&lt;/h3&gt;
+
+&lt;p&gt;We have extended &lt;a href=&#34;http://jhmdb.is.tue.mpg.de/&#34; target=&#34;_blank&#34;&gt;J-HMDB Dataset&lt;/a&gt; with additional description of every human is doing in the videos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://kgavrilyuk.github.io/actor_action/jhmdb_annotation.txt&#34;&gt;jhmdb_annotation.txt&lt;/a&gt; contains annotation in the format &amp;ldquo;video_id,query&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;video_id&amp;rdquo; - the original id of the video from the J-HMDB dataset&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;query&amp;rdquo; - the description of what human is doing throughout the whole video (see the paper for more details)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;The code will be available after CVPR 2018 conference.&lt;/p&gt;
 </description>
     </item>
     

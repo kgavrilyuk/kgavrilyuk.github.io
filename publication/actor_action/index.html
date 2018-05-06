@@ -368,9 +368,45 @@
 
     <div class="article-style">
 
-<h2 id="code-and-datasets">Code and Datasets</h2>
+<h2 id="datasets">Datasets</h2>
 
-<p>The code and datasets will be available after CVPR 2018 conference.</p>
+<h3 id="a2d-sentences">A2D Sentences</h3>
+
+<p>We have extended <a href="https://web.eecs.umich.edu/~jjcorso/r/a2d/" target="_blank">Actor and Action (A2D) Dataset</a> with additional description of every object is doing in the videos. We provide three files containing our annotation:</p>
+
+<ol>
+<li><p><a href="/actor_action/a2d_annotation.txt">a2d_annotation.txt</a> contains annotation in the format &ldquo;video_id,instance_id,query&rdquo; where:</p>
+
+<ul>
+<li><p>&ldquo;video_id&rdquo; - the original id of the video from the A2D dataset</p></li>
+
+<li><p>&ldquo;instance_id&rdquo; - the id of the object in the video that we have added to the original annotation</p></li>
+
+<li><p>&ldquo;query&rdquo; - the description of what object is doing throughout the whole video (see the paper for more details)</p></li>
+</ul></li>
+
+<li><p><a href="https://drive.google.com/file/d/14DNamenZsvZnb32NFBNkZCGene5D2oaE/view" target="_blank">a2d_annotation_with_instances.zip</a> - the original annotation from the A2D dataset in HDF5 with the field &ldquo;instance&rdquo; added. This field corresponds to &ldquo;instance_id&rdquo; field in the <em>a2d_annotation.txt</em> file.</p></li>
+
+<li><p><a href="/actor_action/a2d_missed_videos.txt">a2d_missed_videos.txt</a> contains all the videos that were not annotated with descriptions and therefore were excluded from experiments in the paper.</p></li>
+</ol>
+
+<h3 id="j-hmdb-sentences">J-HMDB Sentences</h3>
+
+<p>We have extended <a href="http://jhmdb.is.tue.mpg.de/" target="_blank">J-HMDB Dataset</a> with additional description of every human is doing in the videos:</p>
+
+<ol>
+<li><p><a href="/actor_action/jhmdb_annotation.txt">jhmdb_annotation.txt</a> contains annotation in the format &ldquo;video_id,query&rdquo;:</p>
+
+<ul>
+<li><p>&ldquo;video_id&rdquo; - the original id of the video from the J-HMDB dataset</p></li>
+
+<li><p>&ldquo;query&rdquo; - the description of what human is doing throughout the whole video (see the paper for more details)</p></li>
+</ul></li>
+</ol>
+
+<h2 id="code">Code</h2>
+
+<p>The code will be available after CVPR 2018 conference.</p>
 </div>
 
     

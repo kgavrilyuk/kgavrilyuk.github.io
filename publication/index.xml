@@ -18,7 +18,10 @@
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kgavrilyuk.github.io/publication/actor_action/</guid>
-      <description>Code and Datasets The code and datasets will be available after CVPR 2018 conference.</description>
+      <description>Datasets A2D Sentences We have extended Actor and Action (A2D) Dataset with additional description of every object is doing in the videos. We provide three files containing our annotation:
+ a2d_annotation.txt contains annotation in the format &amp;ldquo;video_id,instance_id,query&amp;rdquo; where:
+ &amp;ldquo;video_id&amp;rdquo; - the original id of the video from the A2D dataset
+ &amp;ldquo;instance_id&amp;rdquo; - the id of the object in the video that we have added to the original annotation</description>
     </item>
     
     <item>
