@@ -6,9 +6,18 @@
     <description>Recent content in Kirill Gavrilyuk on Kirill Gavrilyuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Kirill Gavrilyuk</copyright>
-    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2020 Kirill Gavrilyuk</copyright>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cloth in the Wind: A Case Study of Physical Measurement through Simulation</title>
+      <link>https://kgavrilyuk.github.io/publication/cloth/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgavrilyuk.github.io/publication/cloth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Actor and Action Video Segmentation from a Sentence</title>
@@ -53,10 +62,6 @@
 &lt;li&gt;&lt;p&gt;&amp;ldquo;query&amp;rdquo; - the description of what human is doing throughout the whole video (see the paper for more details)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;The code will be available after CVPR 2018 conference.&lt;/p&gt;
 </description>
     </item>
     

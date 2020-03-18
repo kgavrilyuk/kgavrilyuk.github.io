@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="We present VideoLSTM for end-to-end sequence learning of actions in video. Rather than adapting the video to the peculiarities of established recurrent or convolutional architectures, we adapt the architecture to fit the requirements of the video medium. Starting from the soft-Attention LSTM, VideoLSTM makes three novel contributions. First, video has a spatial layout. To exploit the spatial correlation we hardwire convolutions in the soft-Attention LSTM architecture. Second, motion not only informs us about the action content, but also guides better the attention towards the relevant spatio-temporal locations. We introduce motion-based attention. And finally, we demonstrate how the attention from VideoLSTM can be exploited for action localization by relying on the action class label and temporal attention smoothing. Experiments on UCF101, HMDB51 and THUMOS13 reveal the benefit of the video-specific adaptations of VideoLSTM in isolation as well as when integrated in a combined architecture. It compares favorably against other LSTM architectures for action classification and especially action localization.">
+  <meta name="description" content="For many of the physical phenomena around us, we have developed sophisticated models explaining their behavior. Nevertheless, measuring physical properties from visual observations is challenging due to the high number of causally underlying physical parameters -- including material properties and external forces. In this paper, we propose to measure latent physical properties for cloth in the wind without ever having seen a real example before. Our solution is an iterative refinement procedure with simulation at its core. The algorithm gradually updates the physical model parameters by running a simulation of the observed phenomenon and comparing the current simulation to a real-world observation. The correspondence is measured using an embedding function that maps physically similar examples to nearby points. We consider a case study of cloth in the wind, with curling flags as our leading example -- a seemingly simple phenomena but physically highly involved. Based on the physics of cloth and its visual manifestation, we propose an instantiation of the embedding function. For this mapping, modeled as a deep network, we introduce a spectral layer that decomposes a video volume into its temporal spectral power and corresponding frequencies. Our experiments demonstrate that the proposed method compares favorably to prior work on the task of measuring cloth material properties and external wind force from a real-world video.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kgavrilyuk.github.io/publication/videolstm/">
+  <link rel="alternate" hreflang="en-us" href="https://kgavrilyuk.github.io/publication/cloth/">
 
   
 
@@ -82,24 +82,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://kgavrilyuk.github.io/publication/videolstm/">
+  <link rel="canonical" href="https://kgavrilyuk.github.io/publication/cloth/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Kirill Gavrilyuk">
-  <meta property="og:url" content="https://kgavrilyuk.github.io/publication/videolstm/">
-  <meta property="og:title" content="VideoLSTM convolves, attends and flows for action recognition | Kirill Gavrilyuk">
-  <meta property="og:description" content="We present VideoLSTM for end-to-end sequence learning of actions in video. Rather than adapting the video to the peculiarities of established recurrent or convolutional architectures, we adapt the architecture to fit the requirements of the video medium. Starting from the soft-Attention LSTM, VideoLSTM makes three novel contributions. First, video has a spatial layout. To exploit the spatial correlation we hardwire convolutions in the soft-Attention LSTM architecture. Second, motion not only informs us about the action content, but also guides better the attention towards the relevant spatio-temporal locations. We introduce motion-based attention. And finally, we demonstrate how the attention from VideoLSTM can be exploited for action localization by relying on the action class label and temporal attention smoothing. Experiments on UCF101, HMDB51 and THUMOS13 reveal the benefit of the video-specific adaptations of VideoLSTM in isolation as well as when integrated in a combined architecture. It compares favorably against other LSTM architectures for action classification and especially action localization.">
+  <meta property="og:url" content="https://kgavrilyuk.github.io/publication/cloth/">
+  <meta property="og:title" content="Cloth in the Wind: A Case Study of Physical Measurement through Simulation | Kirill Gavrilyuk">
+  <meta property="og:description" content="For many of the physical phenomena around us, we have developed sophisticated models explaining their behavior. Nevertheless, measuring physical properties from visual observations is challenging due to the high number of causally underlying physical parameters -- including material properties and external forces. In this paper, we propose to measure latent physical properties for cloth in the wind without ever having seen a real example before. Our solution is an iterative refinement procedure with simulation at its core. The algorithm gradually updates the physical model parameters by running a simulation of the observed phenomenon and comparing the current simulation to a real-world observation. The correspondence is measured using an embedding function that maps physically similar examples to nearby points. We consider a case study of cloth in the wind, with curling flags as our leading example -- a seemingly simple phenomena but physically highly involved. Based on the physics of cloth and its visual manifestation, we propose an instantiation of the embedding function. For this mapping, modeled as a deep network, we introduce a spectral layer that decomposes a video volume into its temporal spectral power and corresponding frequencies. Our experiments demonstrate that the proposed method compares favorably to prior work on the task of measuring cloth material properties and external wind force from a real-world video.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-01-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-01-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2020-01-01T00:00:00&#43;00:00">
   
 
-  <title>VideoLSTM convolves, attends and flows for action recognition | Kirill Gavrilyuk</title>
+  
+
+  <title>Cloth in the Wind: A Case Study of Physical Measurement through Simulation | Kirill Gavrilyuk</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" class="dark">
@@ -219,10 +219,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">VideoLSTM convolves, attends and flows for action recognition</h1>
+    <h1 itemprop="name">Cloth in the Wind: A Case Study of Physical Measurement through Simulation</h1>
     <span class="pub-authors" itemprop="author">
       
-      Z. Li, K. Gavrilyuk, E. Gavves, M. Jain, C. G.M. Snoek
+      T. F.H. Runia, K. Gavrilyuk, C. G.M. Snoek, A. W.M. Smeulders
       
     </span>
     <span class="pull-right">
@@ -231,35 +231,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=VideoLSTM%20convolves%2c%20attends%20and%20flows%20for%20action%20recognition&amp;url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fvideolstm%2f"
+         href="https://twitter.com/intent/tweet?text=Cloth%20in%20the%20Wind%3a%20A%20Case%20Study%20of%20Physical%20Measurement%20through%20Simulation&amp;url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fcloth%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fvideolstm%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fcloth%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fvideolstm%2f&amp;title=VideoLSTM%20convolves%2c%20attends%20and%20flows%20for%20action%20recognition"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fcloth%2f&amp;title=Cloth%20in%20the%20Wind%3a%20A%20Case%20Study%20of%20Physical%20Measurement%20through%20Simulation"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fvideolstm%2f&amp;title=VideoLSTM%20convolves%2c%20attends%20and%20flows%20for%20action%20recognition"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fcloth%2f&amp;title=Cloth%20in%20the%20Wind%3a%20A%20Case%20Study%20of%20Physical%20Measurement%20through%20Simulation"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=VideoLSTM%20convolves%2c%20attends%20and%20flows%20for%20action%20recognition&amp;body=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fvideolstm%2f">
+         href="mailto:?subject=Cloth%20in%20the%20Wind%3a%20A%20Case%20Study%20of%20Physical%20Measurement%20through%20Simulation&amp;body=https%3a%2f%2fkgavrilyuk.github.io%2fpublication%2fcloth%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -270,12 +270,12 @@
     </span>
 
     
-    <img src="/img/videolstm.jpg" class="pub-banner" itemprop="image">
+    <img src="/img/cloth.jpg" class="pub-banner" itemprop="image">
     
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present VideoLSTM for end-to-end sequence learning of actions in video. Rather than adapting the video to the peculiarities of established recurrent or convolutional architectures, we adapt the architecture to fit the requirements of the video medium. Starting from the soft-Attention LSTM, VideoLSTM makes three novel contributions. First, video has a spatial layout. To exploit the spatial correlation we hardwire convolutions in the soft-Attention LSTM architecture. Second, motion not only informs us about the action content, but also guides better the attention towards the relevant spatio-temporal locations. We introduce motion-based attention. And finally, we demonstrate how the attention from VideoLSTM can be exploited for action localization by relying on the action class label and temporal attention smoothing. Experiments on UCF101, HMDB51 and THUMOS13 reveal the benefit of the video-specific adaptations of VideoLSTM in isolation as well as when integrated in a combined architecture. It compares favorably against other LSTM architectures for action classification and especially action localization.</p>
+    <p class="pub-abstract" itemprop="text">For many of the physical phenomena around us, we have developed sophisticated models explaining their behavior. Nevertheless, measuring physical properties from visual observations is challenging due to the high number of causally underlying physical parameters &ndash; including material properties and external forces. In this paper, we propose to measure latent physical properties for cloth in the wind without ever having seen a real example before. Our solution is an iterative refinement procedure with simulation at its core. The algorithm gradually updates the physical model parameters by running a simulation of the observed phenomenon and comparing the current simulation to a real-world observation. The correspondence is measured using an embedding function that maps physically similar examples to nearby points. We consider a case study of cloth in the wind, with curling flags as our leading example &ndash; a seemingly simple phenomena but physically highly involved. Based on the physics of cloth and its visual manifestation, we propose an instantiation of the embedding function. For this mapping, modeled as a deep network, we introduce a spectral layer that decomposes a video volume into its temporal spectral power and corresponding frequencies. Our experiments demonstrate that the proposed method compares favorably to prior work on the task of measuring cloth material properties and external wind force from a real-world video.</p>
     
 
     
@@ -286,8 +286,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#3">
+              Manuscript
             </a>
             
           </div>
@@ -304,7 +304,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9"><em>Computer Vision and Image Understanding, vol. 166, pp. 41-50, 2018</em></div>
+          <div class="col-xs-12 col-sm-9">arXiv:2003.05065</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -318,7 +318,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            January, 2018
+            January, 2020
           </div>
         </div>
       </div>
@@ -338,9 +338,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://kgavrilyuk.github.io/videolstm.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -354,9 +351,8 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/pii/S1077314217301741" target="_blank" rel="noopener">
-  Link
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2003.05065" target="_blank" rel="noopener">
+  arXiv
 </a>
 
 

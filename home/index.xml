@@ -6,8 +6,8 @@
     <description>Recent content in Homes on Kirill Gavrilyuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Kirill Gavrilyuk</copyright>
-    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2020 Kirill Gavrilyuk</copyright>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kgavrilyuk.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://kgavrilyuk.github.io/home/about/</link>
-      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/about/</guid>
       <description>Biography Kirill Gavrilyuk is a Ph.D. candidate in Machine Learning and Computer Vision supervised by Cees Snoek at the University of Amsterdam, QUVA Lab. He is mainly interested in video and action understanding.
@@ -26,7 +26,7 @@ You can find the full CV here.</description>
     <item>
       <title>Publications</title>
       <link>https://kgavrilyuk.github.io/home/publications/</link>
-      <pubDate>Sat, 10 Mar 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0300</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/publications/</guid>
       <description></description>
@@ -35,11 +35,12 @@ You can find the full CV here.</description>
     <item>
       <title>Teaching</title>
       <link>https://kgavrilyuk.github.io/home/teaching/</link>
-      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kgavrilyuk.github.io/home/teaching/</guid>
       <description>I was a teaching assistant for the following courses at the University of Amsterdam:
- Deep Learning, 2016 Deep Learning, 2017 Information Visualization, 2017  I also co-supervised two BSc theses:
+ Deep Learning, 2016 - 2019 Information Visualization, 2017 Computer Vision II, 2018  I supervised two MSc theses:
+ Faissal Imhaouran, &amp;ldquo;Fine-grained action recognition in kickboxing matches&amp;rdquo;, 2019 Jorn Engelbart, &amp;ldquo;A real-time convolutional approach to speech emotion recognition&amp;rdquo;, 2018  I co-supervised two BSc theses:
  Joop Pascha, Predicting Image Appreciation with Convolutional Neural Networks, 2016 Banno Postma, Game Level Generation with Recurrent Neural Networks, 2016  </description>
     </item>
     

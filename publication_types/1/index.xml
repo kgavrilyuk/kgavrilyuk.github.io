@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Kirill Gavrilyuk</title>
-    <link>https://kgavrilyuk.github.io/publication/</link>
-    <description>Recent content in Publications on Kirill Gavrilyuk</description>
+    <title>1 on Kirill Gavrilyuk</title>
+    <link>https://kgavrilyuk.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Kirill Gavrilyuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Kirill Gavrilyuk</copyright>
-    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kgavrilyuk.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kgavrilyuk.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cloth in the Wind: A Case Study of Physical Measurement through Simulation</title>
-      <link>https://kgavrilyuk.github.io/publication/cloth/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kgavrilyuk.github.io/publication/cloth/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Actor and Action Video Segmentation from a Sentence</title>
@@ -31,15 +22,6 @@
  a2d_annotation.txt contains annotation in the format &amp;ldquo;video_id,instance_id,query&amp;rdquo; where:
  &amp;ldquo;video_id&amp;rdquo; - the original id of the video from the A2D dataset
  &amp;ldquo;instance_id&amp;rdquo; - the id of the object in the video that we have added to the original annotation</description>
-    </item>
-    
-    <item>
-      <title>VideoLSTM convolves, attends and flows for action recognition</title>
-      <link>https://kgavrilyuk.github.io/publication/videolstm/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kgavrilyuk.github.io/publication/videolstm/</guid>
-      <description></description>
     </item>
     
   </channel>
